@@ -22,3 +22,22 @@ function mi_tema_scripts() {
  );
 }
 add_action('wp_enqueue_scripts', 'mi_tema_scripts');
+
+// quitar Worpress default nav bar
+
+function my_function_admin_bar(){
+    return false;
+}
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+
+// clase especial para paraffo
+
+function add_class_based_on_slug($content) {
+    if (is_page('about')) {
+        $content = str_replace('<p>', '<p class="about-paragraph">', $content);
+    } elseif (is_page()) {
+        $content = str_replace('<p>', '<p class="page-paragraph">', $content);
+    }
+    return $content;
+}
+add_filter('the_content', 'add_class_based_on_slug');
