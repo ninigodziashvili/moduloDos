@@ -14,13 +14,13 @@
             </div>
             <ul class="nav-link">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="<?php echo home_url(); ?>">Inicio</a>
                 </li>
                 <li>
                     <a href="/sobre-mi-2/">Sobre mi</a>
                 </li>
                 <li>
-                    <a href="#">Proyectos</a>
+                    <a href="/mi-proyectos/">Proyectos</a>
                 </li>
             </ul>
             <div class="burger">

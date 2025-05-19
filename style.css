@@ -394,6 +394,10 @@ body.dark .etiqueta::before, body.dark .etiqueta, body.dark footer
   font-size: 20px;
 }
 
+.page-paragraph {
+  padding: 3em;
+  font-size: 20px;
+}
 
 @media screen and (max-width: 768px) {
   body {
