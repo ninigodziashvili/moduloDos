@@ -1,5 +1,13 @@
 <?php get_header(); ?>
     <main>
+    <div class="parent-checkbox">
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fa-moon">🌙</i>
+    <i class="fa-sun">☀️</i>
+    <span class="ball"></span>
+  </label>
+</div>
         <div class="acordeon-cuerpo">
             <div class="acordeon">
                 <h1>Preguntas Frecuentes</h1>
@@ -128,19 +136,6 @@
 
             </div>
         </div>
-
-<h1>Light/Dark Toggle<br> Button</h1>
-
-<div class="parent-checkbox">
-  <input type="checkbox" class="checkbox" id="checkbox">
-  <label for="checkbox" class="checkbox-label">
-    <i class="fa-moon">🌙</i>
-    <i class="fa-sun">☀️</i>
-    <span class="ball"></span>
-  </label>
-</div>
-
-
     </main>
 </body>
 <?php get_footer(); ?>
