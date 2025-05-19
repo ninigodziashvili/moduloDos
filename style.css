@@ -408,7 +408,7 @@ footer {
 body.dark
  {background-color: #292c35;} /* #9b59b6 */
 
-body.dark h1, body.dark div
+body.dark h1, body.dark div, body.dark h2, body.dark .etiqueta::before, body.dark .etiqueta
  {color: #fff;}
 
 .parent-checkbox {
